@@ -135,13 +135,33 @@ html {
     color: black;
 }
 
-.hero h1 {
-    padding: 8rem 2rem 0 2rem;
-    text-align: center;
+main {
+    margin: 10rem 0 10rem 0;
 }
 
+/* adds padding around title, centers */
+.hero h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* colours text, adds padding, increases f-size, aligns centers, increases line-height */
 .hero p {
     color: white;
     font-size: 1.375rem;
     padding: 2rem 2rem;
+    text-align: center;
+    line-height: 2rem;
 }
+
+/* decors button, centers, adds padding */
+.hero button{
+    display: block;
+    margin: 0 auto;
+    font-family: "Karla", sans-serif;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
