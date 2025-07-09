@@ -70,12 +70,17 @@ body, footer {
 /* Typescales - Mobile */
 h1 {
     font-size: 2rem;
+    font-weight: bold;
+    color: white;
 }
 h2 {
     font-size: 1.75rem;
+    font-weight: bold;
 }
 h3 {
     font-size: 1.375rem;
+    font-weight: bold;
+    color: #d69e3d; 
 }
 p {
     font-size: 1rem;
@@ -84,6 +89,7 @@ p {
 /* Centers & aligns all elements w/ a class of .wrapper */
 .wrapper {
     margin: 0px auto;
+    padding: 1rem;
 }
 
 /* sets box-sizing for all elements, restricts within */
@@ -114,6 +120,9 @@ html {
     list-style: none;
 }
 
+.hero-bg-image hr {
+    color: white;
+}
 
 /* ----- HERO ----- */
 
@@ -124,6 +133,6 @@ html {
     background-repeat: no-repeat;
 }
 
-.hero {
-    padding: 1rem;
+.hero h1 {
+    
 }
