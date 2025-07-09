@@ -1,4 +1,29 @@
-/* Don't forget to add reset code! */
+/* ---------- CSS STARTS HERE ---------- */
 
+/* ----- GENERAL/APPLIES THROUGHOUT ----- */
 
-/* Main CSS starts here! */
+/* -- Website font change -- */
+
+/* Headings */
+h1, h2, h3 {
+    font-family: "Lato", sans-serif;
+}
+/* Body & Footer */
+body, footer {
+    font-family: "Karla", sans-serif;
+}
+
+/* Centers & aligns all elements w/ a class of .wrapper */
+.wrapper {
+    margin: 0px auto;
+}
+
+/* sets box-sizing for all elements, restricts within */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
