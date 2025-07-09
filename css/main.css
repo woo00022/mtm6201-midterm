@@ -104,9 +104,25 @@ html {
 
 /* ----- NAVIGATION ----- */
 
+.nav-title {
+    display: flex;
+    justify-content: left;
+}
+
+#nav-logo {
+    width: 3rem;
+    height: auto;
+}
+
 /* colours nav title white */
 .nav-title h1 {
     color: white;
+    padding: 1rem;
+}
+
+/* adds space around nav */
+nav {
+    padding: 0.5rem;
 }
 
 /* colours, removes decor on nav menu */
@@ -115,9 +131,13 @@ html {
     text-decoration: none;
 }
 
-/* removes bullet points on nav */
+/* removes bullet points on nav, aligns vertically, adds gap */
 .nav-menu ul {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
 }
 
 .hero-bg-image hr {
