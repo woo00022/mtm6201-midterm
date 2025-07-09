@@ -42,4 +42,21 @@ html {
 
 /* ----- NAVIGATION ----- */
 
+/* colours nav title white */
+.nav-title h1 {
+    color: white;
+}
+
+/* colours, removes decor on nav menu */
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-bg-image {
+    background-image: url(/images/hero-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
