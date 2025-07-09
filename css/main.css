@@ -197,12 +197,13 @@ main {
     margin: 5rem 0 5rem 0;
 }
 
-.welcome h3 {
-
-}
-
-/* colours h1, adds line-height */
+/* colours h1, adds line-height, adds padding */
 .welcome h1 {
     color: black;
     line-height: 2.5rem;
+    padding: 1rem 0 1.5rem 0;
+}
+
+#latte {
+    width: 100%
 }
