@@ -204,6 +204,7 @@ main {
     padding: 1rem 0 1.5rem 0;
 }
 
+/* adjusts latte image so it's responsive and fits */
 #latte {
     width: 100%
 }
