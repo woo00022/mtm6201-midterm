@@ -104,11 +104,13 @@ html {
 
 /* ----- NAVIGATION ----- */
 
+/* displays company title beside the logo image, aligns left */
 .nav-title {
     display: flex;
     justify-content: left;
 }
 
+/* adjusts size of logo image */
 #nav-logo {
     width: 3rem;
     height: auto;
