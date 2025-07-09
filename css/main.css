@@ -2,15 +2,27 @@
 
 /* ----- GENERAL/APPLIES THROUGHOUT ----- */
 
-/* -- Website font change -- */
-
-/* Headings */
+/* Font change - Headings */
 h1, h2, h3 {
     font-family: "Lato", sans-serif;
 }
-/* Body & Footer */
+/* Font change - Body & Footer */
 body, footer {
     font-family: "Karla", sans-serif;
+}
+
+/* Typescales - Mobile */
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.375rem;
+}
+p {
+    font-size: 1rem;
 }
 
 /* Centers & aligns all elements w/ a class of .wrapper */
@@ -27,3 +39,5 @@ html {
 *:after{
     box-sizing: inherit;
 }
+
+
