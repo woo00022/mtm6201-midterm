@@ -94,9 +94,11 @@ button {
 .wrapper {
     margin: 0px auto;
     padding: 2rem;
+    max-width: 1200px;
 }
 
 .wrapper-colour {
+    width: 100%;
     background-color: #f3f0e9;
 }
 
@@ -161,6 +163,7 @@ nav {
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
+    
     color: black;
 }
 
@@ -499,8 +502,7 @@ main {
 footer {
     color: white;
     text-align:center;
-    font-weight: light;
-
+    font-weight: lighter;
 }
 
 
