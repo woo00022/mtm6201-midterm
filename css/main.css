@@ -358,3 +358,32 @@ main {
     margin: 0 auto;
     font-size: 1.75rem;
 }
+
+/* ----- ABOUT US ------ */
+
+/* fits image */
+#about-us-image {
+    width: 100%;
+}
+
+/* adds padding top & bottom of content section */
+.about-us-content {
+    padding: 2rem 0 1rem 0;
+}
+
+/* adds padding top & bottom of heading */
+.about-us-content h2 {
+    padding: 1rem 0 1rem 0;
+}
+
+/* decors button */
+.about-us-content button {
+    font-size: 1.375rem;
+    background-color:black;
+    color: white;
+    border:none;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+}
+
+
