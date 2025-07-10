@@ -86,6 +86,9 @@ p {
     font-size: 1rem;
     line-height: 1.5rem;
 }
+button {
+    font-family: "Karla", sans-serif;
+}
 
 /* Centers & aligns all elements w/ a class of .wrapper */
 .wrapper {
@@ -186,7 +189,6 @@ main {
 .hero button{
     display: block;
     margin: 0 auto;
-    font-family: "Karla", sans-serif;
     font-size: 1.75rem;
     font-weight: bold;
     padding: 1rem 2rem 1rem 2rem;
@@ -311,3 +313,48 @@ main {
     color: black;
 }
 
+/* centers & colours MENU */
+.our-menu {
+    padding: 3rem;
+}
+.our-menu h3 {
+    text-align: center;
+}
+.our-menu h2 {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+.our-menu button {
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-style: solid;
+    padding: 0.5rem 1rem;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.75rem;
+}
+
+/* centers & colours LOCATION */
+.location {
+    padding: 3rem;
+}
+.location h3 {
+    text-align: center;
+}
+.location h2 {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+.location button {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    padding: 0.5rem 1rem;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.75rem;
+}
