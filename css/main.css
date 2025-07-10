@@ -506,4 +506,36 @@ footer {
 }
 
 
+/* ****** MEDIA QUERY FOR 760PX ******
+*********       TABLET      ******* */
 
+
+@media screen and (min-width: 768px){
+
+/* --- General - Applies Throughout --- */
+
+/* font size increases */
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.375rem;
+}
+h3 {
+    font-size: 1.75rem;
+}
+p {
+    font-size: 1rem;
+}
+
+/* increases line-height for h1 */
+.welcome h1 {
+    line-height: 3.5rem;
+}
+
+
+
+
+
+
+}
