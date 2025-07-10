@@ -219,6 +219,7 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
+    margin-top: 2rem;
 }
 
 .image-grid img {
@@ -298,3 +299,15 @@ main {
 .with-love h3 {
     color: black;
 }
+
+/*  ------ OUR MENU & LOCATION ----- */
+
+/* sets bg image, adds dark overlay */
+.menu-location-bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/coffee-shop.jpeg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
