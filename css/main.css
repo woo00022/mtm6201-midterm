@@ -844,12 +844,12 @@ main p {
 
 /* adds space top & bottom of hr */
 footer hr {
-    margin: 3rem 0 2rem 0;
+    padding: 3rem 0 2rem 0;
 }
 
 /* adds space below copyright p */
 footer p {
-    margin-bottom: 10rem;
+    padding-bottom: 10rem;
 }
 
 }
