@@ -84,12 +84,17 @@ h3 {
 }
 p {
     font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 /* Centers & aligns all elements w/ a class of .wrapper */
 .wrapper {
     margin: 0px auto;
     padding: 2rem;
+}
+
+.wrapper-colour {
+    background-color: #f3f0e9;
 }
 
 /* sets box-sizing for all elements, restricts within */
@@ -246,3 +251,50 @@ main {
     grid-row: 2 / 4;
 }
 
+/* ------ VISIT US ----- */
+
+/* centers headings, adds padding bottom */
+.visit-us h3 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.visit-us h2 {
+    text-align: center;
+}
+
+/* centers and adjusts size of FAIR TRADE */
+#fair-trade {
+    width: 50%;
+}
+.fair-trade {
+    text-align: center;
+    padding: 2rem;
+}
+.fair-trade h3{
+    color: black;
+}
+
+/* centers and adjusts size of LOCAL BAKED GOODS */
+#baked-goods {
+    width: 50%;
+}
+.baked-goods {
+    text-align: center;
+    padding: 2rem;
+}
+.baked-goods h3 {
+    color: black;
+}
+
+/* centers and adjusts size of WITH LOVE */
+#with-love {
+    width: 50%;
+}
+.with-love {
+    text-align:center;
+    padding: 2rem;
+}
+.with-love h3 {
+    color: black;
+}
