@@ -528,10 +528,42 @@ p {
     font-size: 1rem;
 }
 
+/* ----- WELCOME ------ */
+
+/* decreases margin of section top & bottom */
+.welcome {
+    margin: 3rem 0 3rem 0;
+}
+
 /* increases line-height for h1 */
 .welcome h1 {
     line-height: 3.5rem;
 }
+
+/* displays grid to the right of latte image, decreases gap, centers */
+.grid-aside {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+/* displays 50% of width  - left */
+#latte {
+    width: 50%;
+}
+
+/* displays 50% of width - right */
+.image-grid {
+    width: 50%;
+    gap: 1rem;
+    margin: 0;
+}
+
+/* ------ VISIT US ------ */
+
+
+
+
 
 
 
