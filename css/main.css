@@ -155,12 +155,12 @@ nav {
 
 }
 
+/* ----- HERO ----- */
+
 /* colours horizontal line below nav */
 .hero-bg-image hr {
     color: white;
 }
-
-/* ----- HERO ----- */
 
 /* adds bg image for hero */
 .hero-bg-image {
