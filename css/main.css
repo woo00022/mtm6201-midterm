@@ -393,6 +393,10 @@ main {
     background-color: black;
 }
 
+.testimonials {
+    margin: 2rem 0 10rem 0;
+}
+
 /* colours and adds padding to headings */
 .testimonials h2 {
     color: white;
@@ -402,10 +406,7 @@ main {
     padding: 1rem 0 1rem 0;
 }
 
-/* changes body text colour to white */
-.jane p {
-    color: white;
-}
+/* -- JANE -- */
 
 /* sets bg image, adds overlay, displays full size */
 .jane {
@@ -419,13 +420,87 @@ main {
     width: 100%;
     aspect-ratio: 778 / 1118;
     position: relative;
+    margin: 2rem 0 2rem 0;
 }
 
+/* changes body text colour to white */
+.jane p {
+    color: white;
+}
+/* positions bottom left, adds padding */
 .jane-content {
     position: absolute;
     bottom: 1rem;
     left: 1rem;
+}
+
+/* -- SCOTT -- */
+
+/* sets bg image, adds overlay, displays full size */
+.scott {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/testimonial-2.jpeg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    background-position: center;
+
+    width: 100%;
+    aspect-ratio: 778 / 1118;
+    position: relative;
+    margin: 2rem 0 2rem 0;
+}
+
+/* changes body text colour to white */
+.scott p {
+    color: white;
+}
+
+/* positions bottom left, adds padding */
+.scott-content {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
     padding: 1rem 7rem 1rem 1rem;
+}
+
+/* -- SUSIE -- */
+
+/* sets bg image, adds overlay, displays full size */
+.susie {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/testimonial-3.jpeg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    background-position: center;
+
+    width: 100%;
+    aspect-ratio: 778 / 1118;
+    position: relative;
+    margin: 2rem 0 4rem 0;
+}
+
+/* changes body text colour to white */
+.susie p {
+    color: white;
+}
+
+/* positions bottom left, adds padding */
+.susie-content {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    padding: 1rem 7rem 1rem 1rem;
+}
+
+/* ----- FOOTER ----- */
+
+footer {
+    color: white;
+    text-align:center;
+    font-weight: light;
+
 }
 
 
