@@ -395,6 +395,7 @@ main {
 .black-wrapper {
     background-color: black;
 }
+widh
 
 .testimonials {
     margin: 2rem 0 10rem 0;
@@ -682,17 +683,17 @@ main p {
     grid-template-rows: repeat(1, 1fr);
 }
 
-/* top left */
+/* left */
 .fair-trade {
     grid-column: 1 / 2;
     grid-row: 1 / 1;
 }
-/* top right */
+/* middle */
 .baked-goods {
     grid-column: 2 / 3;
     grid-row: 1 / 1;
 }
-/* bottom middle */
+/* right */
 .with-love {
     grid-column: 3 / 4;
     grid-row: 1 / 1;
@@ -706,6 +707,16 @@ main p {
     display: flex;
 }
 
+/* ------ ABOUT US ------ */
+
+/* displays about us image & content side-by-side, adds padding top & bottom */
+.about-us-flex {
+    display: flex;
+    gap: 2rem;
+    padding: 5rem 0 5rem 0;
+}
+
+/* ---- TESTIMONIALS ----- */
 
 
 
