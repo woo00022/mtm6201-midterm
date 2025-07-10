@@ -660,15 +660,54 @@ p {
     justify-content: space-between;
 }
 
+/* ----- HERO ------ */
+
+/* adjusts space on sides for h1 and p */
 main h1 {
     margin-left: 20%;
     margin-right: 20%;
 }
 
 main p {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
+/* ----- VISIT US ----- */
+
+/* displays grid for icons - ALL IN A ROW */
+.visit-us-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+/* top left */
+.fair-trade {
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+}
+/* top right */
+.baked-goods {
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+}
+/* bottom middle */
+.with-love {
+    grid-column: 3 / 4;
+    grid-row: 1 / 1;
+}
+
+
+/* ----- OUR MENU & LOCATIONS ------ */
+
+/* displays menu & location side-by-side horizontally */
+.menu-location-flex {
+    display: flex;
+}
+
+
+
 
 
 
