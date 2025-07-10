@@ -56,7 +56,11 @@ table {
 
 /* ---------- CSS STARTS HERE ---------- */
 
-
+/* ------------ CUSTOM VARIABLES ------------ */
+:root {
+    --brand-gold: #d69e3d;
+    --brand-beige: #f3f0e9;
+}
 
 /* ----- GENERAL/APPLIES THROUGHOUT ----- */
 
@@ -82,7 +86,7 @@ h2 {
 h3 {
     font-size: 1.375rem;
     font-weight: bold;
-    color: #d69e3d; 
+    color: var(--brand-gold);
 }
 p {
     font-size: 1rem;
@@ -104,7 +108,7 @@ hr {
 
 .wrapper-colour {
     width: 100%;
-    background-color: #f3f0e9;
+    background-color: var(--brand-beige);
 }
 
 /* sets box-sizing for all elements, restricts within */
@@ -182,12 +186,27 @@ main {
     margin: 10rem 0 10rem 0;
 }
 
-/* adds padding around title, centers */
+/* adds padding around title, centers - adds animation*/
 .hero h1 {
     font-size: 3rem;
     text-align: center;
     font-weight: bold;
+
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 /* colours text, adds padding, increases f-size, aligns centers, increases line-height */
 .hero p {
@@ -205,12 +224,27 @@ main {
     font-size: 1.75rem;
     font-weight: bold;
     padding: 1rem 2rem 1rem 2rem;
+
+    opacity: 0;
+    animation: mainButtonFadeIn 1s 1.5s ease-in-out forwards;
+}
+
+
+@keyframes mainButtonFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* decors HOVER state for hero button */
 .hero button:hover {
     color:white;
-    background-color: #966f2c;
+    background-color: var(--brand-gold);
     border-style: none;
 }
 
@@ -422,6 +456,12 @@ main {
     border:none;
     padding: 1rem 3rem;
     margin-top: 1rem;
+}
+
+/* adds HOVER state decor */
+.about-us-content button:hover {
+    background-color: var(--brand-gold);
+    color: white;
 }
 
 /* ------ TESTIMONIALS ------ */
