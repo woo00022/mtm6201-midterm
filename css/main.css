@@ -89,6 +89,9 @@ p {
 button {
     font-family: "Karla", sans-serif;
 }
+hr {
+    margin: 0 auto;
+}
 
 /* Centers & aligns all elements w/ a class of .wrapper */
 .wrapper {
@@ -718,8 +721,33 @@ main p {
 
 /* ---- TESTIMONIALS ----- */
 
+/* displays testimonials in a ROW */
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    padding-bottom: 3rem;
+}
 
-
+/* left*/
+.jane {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    align-self: start;
+}
+/* middle */
+.scott {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    align-self: start;
+}
+/* right */
+.susie {
+    grid-column: 3 / 4;
+    grid-row: 1;
+    align-self: start;
+    margin: 2rem 0 0 0;
+}
 
 
 }
