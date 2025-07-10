@@ -386,4 +386,47 @@ main {
     margin-top: 1rem;
 }
 
+/* ------ TESTIMONIALS ------ */
+
+/* changes bg to black */
+.black-wrapper {
+    background-color: black;
+}
+
+/* colours and adds padding to headings */
+.testimonials h2 {
+    color: white;
+    padding: 1rem 0 1rem 0;
+}
+.testimonials h3 {
+    padding: 1rem 0 1rem 0;
+}
+
+/* changes body text colour to white */
+.jane p {
+    color: white;
+}
+
+/* sets bg image, adds overlay, displays full size */
+.jane {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/testimonial-1.jpeg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    background-position: center;
+
+    width: 100%;
+    aspect-ratio: 778 / 1118;
+    position: relative;
+}
+
+.jane-content {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    padding: 1rem 7rem 1rem 1rem;
+}
+
+
 
