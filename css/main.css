@@ -152,7 +152,12 @@ nav {
     display: flex;
     justify-content: center;
     gap: 3rem;
+}
 
+/* adds hover state for nav menu, underline */
+nav a:hover {
+    text-decoration: underline;
+    transition: color 0.3s ease;
 }
 
 /* ----- HERO ----- */
