@@ -56,6 +56,8 @@ table {
 
 /* ---------- CSS STARTS HERE ---------- */
 
+
+
 /* ----- GENERAL/APPLIES THROUGHOUT ----- */
 
 /* Font change - Headings */
@@ -200,6 +202,13 @@ main {
     padding: 1rem 2rem 1rem 2rem;
 }
 
+/* decors HOVER state for hero button */
+.hero button:hover {
+    color:white;
+    background-color: #966f2c;
+    border-style: none;
+}
+
 
 /* ----- WELCOME ----- */
 
@@ -331,6 +340,8 @@ main {
     color: white;
     padding: 1rem;
 }
+
+/* decors button, centers, adds padding */
 .our-menu button {
     background-color: white;
     color: black;
@@ -340,6 +351,14 @@ main {
     display: block;
     margin: 0 auto;
     font-size: 1.75rem;
+}
+
+/* decors HOVER state for button */
+.our-menu button:hover {
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    color: white;
 }
 
 /* centers & colours LOCATION */
@@ -354,6 +373,8 @@ main {
     color: white;
     padding: 1rem;
 }
+
+/* decors button, centers, adds padding */
 .location button {
     background-color: transparent;
     color: white;
@@ -363,6 +384,12 @@ main {
     display: block;
     margin: 0 auto;
     font-size: 1.75rem;
+}
+
+/* decors HOVER state for button */
+.location button:hover {
+    background-color: white;
+    color: black;
 }
 
 /* ----- ABOUT US ------ */
