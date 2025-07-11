@@ -379,7 +379,7 @@ main {
 
 /* sets bg image, adds dark overlay */
 .menu-location-bg-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/coffee-shop.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/coffee-shop.jpeg);
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
@@ -508,7 +508,7 @@ widh
 
 /* sets bg image, adds overlay, displays full size */
 .jane {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/testimonial-1.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/testimonial-1.jpeg);
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
@@ -853,3 +853,5 @@ footer p {
 }
 
 }
+
+/* End of CSS */
